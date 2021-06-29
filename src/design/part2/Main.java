@@ -2,6 +2,9 @@ package design.part2;
 
 import java.util.Scanner;
 
+/**
+ * Part2: 策略模式
+ */
 public class Main {
 
     public static void main(String[] args) {
