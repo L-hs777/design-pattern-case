@@ -10,4 +10,3 @@ public class Main {
         System.out.println("cloned id: " + c1.getId());
     }
 }
-

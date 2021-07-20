@@ -1,4 +1,4 @@
-package design.part6.test;
+package design.part6.test_1;
 
 public class Resume implements Cloneable {
     private final String name;
@@ -29,7 +29,8 @@ public class Resume implements Cloneable {
         System.out.println("工作经历：" + timeAres + " " + company);
     }
 
-    // 创建clone方法
+    // 创建clone方法，浅复制，
+    // 如果复制的对象中的某个属性是引用数据类型，则只会复制对象的引用，修改时会改变原始属性
     public Resume mClone() {
         Resume resume = null;
         try {

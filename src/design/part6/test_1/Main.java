@@ -1,4 +1,4 @@
-package design.part6.test;
+package design.part6.test_1;
 
 public class Main {
     public static void main(String[] args) {
