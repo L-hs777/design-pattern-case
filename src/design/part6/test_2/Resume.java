@@ -1,7 +1,7 @@
 package design.part6.test_2;
 
 public class Resume implements Cloneable {
-    private String name;
+    private final String name;
     private String gender;
     private String age;
     private WorkExperience work;
